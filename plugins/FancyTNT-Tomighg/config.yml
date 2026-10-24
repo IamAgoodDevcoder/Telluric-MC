@@ -1,0 +1,387 @@
+global:
+  enabled: true
+  prefix: "&6[FancyTNT]&r "
+  allowed-worlds: 
+    - "world"
+    - "world_nether"
+    - "world_the_end"
+  global-cooldown-ms: 500
+  per-player-limit: 10
+  debug: false
+
+recipes:
+  show-in-recipe-book: true
+  discovery-mode: true
+  auto-discover-on-join: true
+
+tnt-types:
+  ATOM_BOMB:
+    enabled: true
+    display-name: "&4&lATOM BOMB"
+    lore:
+      - "&c&k!!!&r &4SAY GOODBYE &c&k!!!&r"
+    fuse-ticks: 300
+    radius: 100
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "NUN"
+        - "NTN"
+        - "NNN"
+      ingredients:
+        N: NETHERITE_BLOCK
+        T: TNT
+        U: CUSTOM:URAN_BOTTLE
+  CLASSIC:
+    enabled: true
+    display-name: "&aClassic TNT"
+    lore:
+      - "&7Fancy standard explosion."
+    fuse-ticks: 80
+    power: 5.0
+    block-damage: true
+    cooldown-ms: 1000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 2
+      pattern:
+        - "GGG"
+        - "GTG"
+        - "GGG"
+      ingredients:
+        G: GLOWSTONE_DUST
+        T: TNT
+
+  CLUSTER:
+    enabled: true
+    display-name: "&9Cluster TNT"
+    lore:
+      - "&7Splits into mini TNTs."
+    fuse-ticks: 80
+    power: 4.0
+    cluster-count: 5
+    cluster-fuse: 20
+    block-damage: true
+    cooldown-ms: 2000
+    recipe:
+      enabled: true
+      type: SHAPELESS
+      output-amount: 1
+      shapeless-ingredients:
+        - "TNT:1"
+        - "GUNPOWDER:4"
+        - "FIREWORK_ROCKET:2"
+
+  MINING:
+    enabled: true
+    display-name: "&9Mining TNT"
+    lore:
+      - "&7Drills a tunnel."
+    fuse-ticks: 60
+    length: 10
+    radius: 1
+    block-damage: true
+    drop-items: true
+    cooldown-ms: 1500
+    denylist: ["BEDROCK", "OBSIDIAN", "CHEST", "SPAWNER"]
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "IPI"
+        - "PTP"
+        - "IPI"
+      ingredients:
+        I: IRON_INGOT
+        P: IRON_PICKAXE
+        T: TNT
+
+  AIRSTRIKE:
+    enabled: true
+    display-name: "&5Airstrike Beacon"
+    lore:
+      - "&7Death from above."
+    fuse-ticks: 100
+    bombs-amount: 5
+    bombs-interval: 5
+    height-offset: 30
+    block-damage: true
+    cooldown-ms: 5000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "FPF"
+        - "PTP"
+        - "FPF"
+      ingredients:
+        F: FEATHER
+        P: PHANTOM_MEMBRANE
+        T: TNT
+
+  FIREWORK:
+    enabled: true
+    display-name: "&aFirework TNT"
+    lore:
+      - "&7Party time!"
+    fuse-ticks: 60
+    block-damage: false
+    cooldown-ms: 500
+    recipe:
+      enabled: true
+      type: SHAPELESS
+      output-amount: 2
+      shapeless-ingredients:
+        - "TNT:1"
+        - "FIREWORK_ROCKET:3"
+        - "PAPER:3"
+
+  EMP:
+    enabled: true
+    display-name: "&9EMP TNT"
+    lore:
+      - "&7Disables electronics."
+    fuse-ticks: 80
+    radius: 15
+    block-damage: false
+    knockback-strength: 2.0
+    potion-duration-ticks: 200
+    cooldown-ms: 3000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "ARA"
+        - "RTR"
+        - "ARA"
+      ingredients:
+        A: AMETHYST_SHARD
+        R: REDSTONE
+        T: TNT
+
+  # --- NEW 10 TYPES ---
+
+  NUKE:
+    enabled: true
+    display-name: "&6&lNUKE"
+    lore:
+      - "&cDanger! Extreme explosion."
+    fuse-ticks: 200
+    power: 25.0
+    block-damage: true
+    cooldown-ms: 30000
+    rad-sickness-seconds: 60
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "TTT"
+        - "TNT"
+        - "TTT"
+      ingredients:
+        T: TNT
+        N: NETHER_STAR
+
+  SHOCKWAVE:
+    enabled: true
+    display-name: "&9Shockwave TNT"
+    lore:
+      - "&7Massive knockback."
+    fuse-ticks: 60
+    radius: 10
+    block-damage: false
+    knockback-strength: 4.0
+    cooldown-ms: 2000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "SPS"
+        - "PTP"
+        - "SPS"
+      ingredients:
+        S: SLIME_BALL
+        P: PISTON
+        T: TNT
+
+  FREEZE:
+    enabled: true
+    display-name: "&bFreeze TNT"
+    lore:
+      - "&7Icy explosion."
+    fuse-ticks: 80
+    radius: 6
+    block-damage: false
+    freeze-duration-ticks: 140
+    turn-water-ice: true
+    cooldown-ms: 2000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "ISI"
+        - "STS"
+        - "ISI"
+      ingredients:
+        I: BLUE_ICE
+        S: SNOWBALL
+        T: TNT
+
+  POISON:
+    enabled: true
+    display-name: "&2Poison TNT"
+    lore:
+      - "&7Toxic cloud."
+    fuse-ticks: 80
+    radius: 7
+    block-damage: false
+    poison-duration-ticks: 200
+    cooldown-ms: 1500
+    recipe:
+      enabled: true
+      type: SHAPELESS
+      output-amount: 2
+      shapeless-ingredients:
+        - "TNT:1"
+        - "SPIDER_EYE:2"
+        - "FERMENTED_SPIDER_EYE:1"
+
+  BLACKHOLE:
+    enabled: true
+    display-name: "&5Blackhole TNT"
+    lore:
+      - "&7Sucks everything in."
+    fuse-ticks: 100
+    radius: 12
+    pull-strength: 0.8
+    block-damage: true
+    cooldown-ms: 5000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "EOE"
+        - "OTO"
+        - "EOE"
+      ingredients:
+        E: ENDER_PEARL
+        O: OBSIDIAN
+        T: TNT
+
+  LASER:
+    enabled: true
+    display-name: "&cLaser TNT"
+    lore:
+      - "&7Linear destruction."
+    fuse-ticks: 60
+    length: 20
+    block-damage: true
+    cooldown-ms: 2000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "QRQ"
+        - "RTR"
+        - "QRQ"
+      ingredients:
+        Q: QUARTZ
+        R: REDSTONE
+        T: TNT
+
+  GRAVITY:
+    enabled: true
+    display-name: "&5Gravity TNT"
+    lore:
+      - "&7Floats you up, drops you down."
+    fuse-ticks: 80
+    radius: 10
+    levitation-duration: 60
+    block-damage: false
+    cooldown-ms: 4000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "SPS"
+        - "PTP"
+        - "SPS"
+      ingredients:
+        S: SHULKER_SHELL
+        P: PHANTOM_MEMBRANE
+        T: TNT
+
+  SILK_MINER:
+    enabled: true
+    display-name: "&dSilk Miner TNT"
+    lore:
+      - "&7Mines blocks carefully."
+    fuse-ticks: 80
+    radius: 4
+    block-damage: true
+    cooldown-ms: 3000
+    recipe:
+      enabled: true
+      type: SHAPELESS
+      output-amount: 1
+      shapeless-ingredients:
+        - "TNT:1"
+        - "DIAMOND_PICKAXE:1"
+        - "HONEYCOMB:4"
+
+  FARMING:
+    enabled: true
+    display-name: "&eFarming TNT"
+    lore:
+      - "&7Harvests crops."
+    fuse-ticks: 60
+    radius: 6
+    replant: true
+    cooldown-ms: 1000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 2
+      pattern:
+        - "BHB"
+        - "HTH"
+        - "BHB"
+      ingredients:
+        B: BONE_MEAL
+        H: GOLDEN_HOE
+        T: TNT
+
+  BUILDER:
+    enabled: true
+    display-name: "&6Builder TNT"
+    lore:
+      - "&7Creates shelter."
+    fuse-ticks: 60
+    block-type: "STONE_BRICKS"
+    shape: "CUBE" # CUBE, SPHERE
+    size: 3
+    cooldown-ms: 3000
+    recipe:
+      enabled: true
+      type: SHAPED
+      output-amount: 1
+      pattern:
+        - "BPB"
+        - "PTP"
+        - "BPB"
+      ingredients:
+        B: STONE_BRICKS
+        P: PISTON
+        T: TNT

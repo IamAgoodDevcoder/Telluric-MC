@@ -1,0 +1,51 @@
+government-menu:
+  title: "§1Nation Government Menu"
+  slots: 27
+  change-gov-item:
+    material: "GOLDEN_HELMET"
+    slot: 10
+    name: "§6§lChange Government Type"
+    lore:
+      - "§7Select a structural template"
+      - "§7for your nation's hierarchy."
+  rename-gov-item:
+    material: "NAME_TAG"
+    slot: 12
+    name: "§b§lRename Government"
+    lore:
+      - "§7Give your nation a custom title"
+      - "§7(e.g., 'The Holy Empire')."
+  setpay-gov-item:
+    material: "GOLD_INGOT"
+    slot: 14
+    name: "§a§lManage Rank Salaries"
+    lore:
+      - "§7View info on payroll settings."
+      - "§7Use: §f/gov setpay <rank> <amount>"
+  apps-gov-item:
+    material: "CHEST"
+    slot: 16
+    name: "§d§lApplication Review"
+    lore:
+      - "§7Click to view recent citizenship"
+      - "§7or position applications."
+
+government-types:
+  MONARCHY:
+    display-name: "§eMonarchy Structure"
+    material: "GOLD_BLOCK"
+    max-ranks: 5
+    lore:
+      - "§7Supports up to §65 §7custom ranks."
+  REPUBLIC:
+    display-name: "§bRepublic Structure"
+    material: "IRON_BLOCK"
+    max-ranks: 8
+    lore:
+      - "§7Supports up to §38 §7custom ranks."
+  DICTATORSHIP:
+    display-name: "§cDictatorship Structure"
+    material: "NETHERITE_BLOCK"
+    max-ranks: 3
+    lore:
+      - "§7Supports up to §c3 §7custom ranks."

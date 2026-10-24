@@ -1,0 +1,59 @@
+{"tx_id":"tx-mvm8ag9w-8dbf80ae32","serial":207,"ts":1792836042981,"ADMIN_ADD","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":1.0E12,"meta":{"note":"admin add by CONSOLE"}}
+{"tx_id":"tx-mvm8agct-a346e209dd","serial":208,"ts":1792836043085,"ADMIN_ADD","default","00000000-0000-0000-0000-000000000000","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":1.0E12,"meta":{"note":"from CONSOLE"}}
+{"tx_id":"tx-mvm8bogj-83a2ec4f88","serial":209,"ts":1792836100243,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8boil-a30466f8c3","serial":210,"ts":1792836100317,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bqrm-9ee570112f","serial":211,"ts":1792836103234,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bqul-b59cf4dab3","serial":212,"ts":1792836103341,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8br8h-901845d039","serial":213,"ts":1792836103841,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8br8q-a06775899b","serial":214,"ts":1792836103850,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bro3-83b74dca46","serial":215,"ts":1792836104403,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8broo-b701014ce8","serial":216,"ts":1792836104424,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8brzi-8e6f36a159","serial":217,"ts":1792836104814,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bs00-a7d7a4c993","serial":218,"ts":1792836104832,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bsaf-b4dd38c9d8","serial":219,"ts":1792836105207,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bsb0-aa2e0f4981","serial":220,"ts":1792836105228,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bsk5-9d61cd8628","serial":221,"ts":1792836105557,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bskh-934b92f433","serial":222,"ts":1792836105569,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bsud-a3921fd9dc","serial":223,"ts":1792836105925,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bsux-a85ab2e405","serial":224,"ts":1792836105945,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bt7a-a01310d813","serial":225,"ts":1792836106390,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bt7n-a0910755a4","serial":226,"ts":1792836106403,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8btjo-9cf3bc6562","serial":227,"ts":1792836106836,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8btkj-af3d6b4a99","serial":228,"ts":1792836106867,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8btxs-a61646f474","serial":229,"ts":1792836107344,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8btyq-960a0a773a","serial":230,"ts":1792836107378,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bubk-88132a0fb2","serial":231,"ts":1792836107840,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bubv-aecfc0e939","serial":232,"ts":1792836107851,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bup1-ab694b2c7a","serial":233,"ts":1792836108325,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8burn-959f27554e","serial":234,"ts":1792836108419,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bv2p-aa2a4559b3","serial":235,"ts":1792836108817,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.147483647E9}
+{"tx_id":"tx-mvm8bv6j-b019c4c156","serial":236,"ts":1792836108955,"DEPOSIT","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":2.147483647E9}
+{"tx_id":"tx-mvm8uw8b-9f2b5b32a5","serial":238,"ts":1792836996779,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.4}
+{"tx_id":"tx-mvmaepyq-bf0ec2ae3c","serial":239,"ts":1792839601394,"WITHDRAW","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":10.0}
+{"tx_id":"tx-mvmaeqe1-8da1d81eae","serial":240,"ts":1792839601945,"WITHDRAW","default","2a9d1980-c2ed-48d6-b3ff-fb57523e402c","amount":0.0}
+{"tx_id":"tx-mvmc2dps-9306f39491","serial":242,"ts":1792842384880,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.2}
+{"tx_id":"tx-mvmc2hqr-8e4a675c47","serial":243,"ts":1792842390099,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.4}
+{"tx_id":"tx-mvmed06x-a75f298bbb","serial":245,"ts":1792846239801,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.4}
+{"tx_id":"tx-mvmedbsz-b7c526670c","serial":246,"ts":1792846254851,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.4}
+{"tx_id":"tx-mvmeepyg-93871a884b","serial":247,"ts":1792846319848,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.4}
+{"tx_id":"tx-mvmef5e1-be8cba2fc3","serial":248,"ts":1792846339849,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":15.6}
+{"tx_id":"tx-mvmeh6oy-8470dee1b8","serial":249,"ts":1792846434850,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.08}
+{"tx_id":"tx-mvmehm4j-8e62c7fc64","serial":250,"ts":1792846454851,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":2.08}
+{"tx_id":"tx-mvmeo2e2-ba351733b2","serial":251,"ts":1792846755866,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":15.65}
+{"tx_id":"tx-mvmeo68u-9759fd46e2","serial":252,"ts":1792846760862,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.5}
+{"tx_id":"tx-mvmeoa3f-81751f8b86","serial":253,"ts":1792846765851,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":10.5}
+{"tx_id":"tx-mvmeodyr-beee43c9a8","serial":254,"ts":1792846770867,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmeolta-884c926ebb","serial":255,"ts":1792846781038,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmeopl4-91ce65c20f","serial":256,"ts":1792846785928,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmep15a-bca0c274b1","serial":257,"ts":1792846800910,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmep50p-a0c1812b0a","serial":258,"ts":1792846805929,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmep8wy-8334fc9eb9","serial":259,"ts":1792846810978,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmepieb-872241ffc9","serial":260,"ts":1792846823267,"ADMIN_SET","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":100.0,"meta":{"note":"set by ProSUPERMICAH"}}
+{"tx_id":"tx-mvmeq7o4-a139a03cd6","serial":261,"ts":1792846856020,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":5.25}
+{"tx_id":"tx-mvmkuhpf-a45646febb","serial":264,"ts":1792857133347,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":15.75}
+{"tx_id":"tx-mvmkvku9-a783cbf352","serial":265,"ts":1792857184066,"WITHDRAW","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":6.5277025743E10}
+{"tx_id":"tx-mvmkvkvn-9c1bd3c218","serial":266,"ts":1792857184115,"DEPOSIT","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":6.5277025743E10}
+{"tx_id":"tx-mvmkvl2t-b84a7e7f37","serial":267,"ts":1792857184373,"WITHDRAW","default","51fcb3b5-3c61-4f1d-a2b1-450bba01d97c","amount":0.0}
+{"tx_id":"tx-mvmkw28b-acc2b69ad0","serial":268,"ts":1792857206603,"ADMIN_SET","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":1.0,"meta":{"note":"set by ProSUPERMICAH"}}
+{"tx_id":"tx-mvmkw6t3-96f0f3eac8","serial":269,"ts":1792857212535,"WITHDRAW","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":1.0}
+{"tx_id":"tx-mvmkw6t3-a87860c735","serial":270,"ts":1792857212535,"ADMIN_REMOVE","default","ed5e8ae6-1005-409b-a007-a873c041f0a6","ed5e8ae6-1005-409b-a007-a873c041f0a6","amount":1.0,"meta":{"note":"by ProSUPERMICAH"}}

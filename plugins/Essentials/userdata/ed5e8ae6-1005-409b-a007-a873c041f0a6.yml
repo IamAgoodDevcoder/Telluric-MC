@@ -1,0 +1,32 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1792857293856
+  login: 1792857095244
+money: '0'
+logoutlocation:
+  world: ced41151-bb75-4929-ba61-2dabaeba19d0
+  world-name: world
+  x: -62.95402509440151
+  y: 66.0
+  z: 197.68475498785483
+  yaw: -67.62387084960938
+  pitch: -36.54721450805664
+last-account-name: ProSUPERMICAH
+nickname: ProSUPERMICAH

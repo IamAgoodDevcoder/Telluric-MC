@@ -1,0 +1,14 @@
+balances:
+  633e7ce2-39d1-4ef3-aaaf-71f1b1aac43b: 0.0
+  51fcb3b5-3c61-4f1d-a2b1-450bba01d97c: 0.0
+  d00bdccd-30bc-4d00-9466-cbdfc0c302ba: 0.0
+  2a9d1980-c2ed-48d6-b3ff-fb57523e402c: 0.0
+  ed5e8ae6-1005-409b-a007-a873c041f0a6: 0.0
+currencies:
+  default:
+    balances:
+      633e7ce2-39d1-4ef3-aaaf-71f1b1aac43b: 0.0
+      51fcb3b5-3c61-4f1d-a2b1-450bba01d97c: 0.0
+      d00bdccd-30bc-4d00-9466-cbdfc0c302ba: 0.0
+      2a9d1980-c2ed-48d6-b3ff-fb57523e402c: 0.0
+      ed5e8ae6-1005-409b-a007-a873c041f0a6: 0.0

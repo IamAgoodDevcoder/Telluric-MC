@@ -1,0 +1,5 @@
+salaries:
+  minister: 500000.0
+structure_type: REPUBLIC
+allowed_max_ranks: 8
+custom_government_name: Congress

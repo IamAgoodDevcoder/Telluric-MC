@@ -1,0 +1,11 @@
+loans:
+  ed5e8ae6-1005-409b-a007-a873c041f0a6:
+    principal: 100000.0
+    remaining: 100000.0
+    installment_amount: 100000.0
+    interval_ms: 604800000
+    next_charge_at_ms: 1793206824011
+    installments_left: 1
+    missed_payments: 0
+    created_at_ms: 1792602024011
+    status: ACTIVE

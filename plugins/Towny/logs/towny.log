@@ -1,0 +1,19 @@
+24 Oct 2026 16:21:29 [Server thread]: Database: [Load] flatfile [Save] flatfile
+24 Oct 2026 16:21:30 [Server thread]: Database: Loaded in 1157ms.
+24 Oct 2026 16:21:30 [ForkJoinPool.commonPool-worker-1]: Cleaning up old backups...
+24 Oct 2026 16:21:30 [ForkJoinPool.commonPool-worker-1]: Successfully cleaned backups.
+24 Oct 2026 16:21:30 [ForkJoinPool.commonPool-worker-1]: Making backup...
+24 Oct 2026 16:21:30 [Folia Async Scheduler Thread #3]: Time until a New Day: 19 hours, 38 minutes, 30 seconds
+24 Oct 2026 16:21:30 [Server thread]: Searching for third-party plugins...
+24 Oct 2026 16:21:30 [Folia Async Scheduler Thread #3]: Checking for updates...
+24 Oct 2026 16:21:30 [Server thread]: Plugins found: 
+24 Oct 2026 16:21:30 [Server thread]:   Permissions: TownyPerms, BukkitPermissions
+24 Oct 2026 16:21:30 [Server thread]:   Economy: VaultEconomy via Vault
+24 Oct 2026 16:21:31 [Folia Async Scheduler Thread #3]: No new updates found.
+24 Oct 2026 16:21:31 [Server thread]: Version: 0.103.2.13 - Plugin Enabled
+24 Oct 2026 16:53:03 [Server thread]: An exception occurred when constructing data for town Texas (51fcb3b5-3c61-4f1d-a2b1-450bba01d97c), caused by: Town has not set a spawn location.
+24 Oct 2026 16:53:04 [Server thread]: [Global Message] The town of Texas has been deleted!
+24 Oct 2026 16:54:59 [Server thread]: Disabling Towny v0.103.2.13
+24 Oct 2026 16:54:59 [Server thread]: Finishing File IO Tasks...
+24 Oct 2026 16:54:59 [Server thread]: Finishing Universe Tasks...
+24 Oct 2026 16:54:59 [Server thread]: Version: 0.103.2.13 - Plugin Disabled
